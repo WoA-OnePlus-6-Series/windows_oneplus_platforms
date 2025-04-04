@@ -1,0 +1,130 @@
+<FeatureManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate" Revision="1" SchemaVersion="1.3">
+    <Drivers>
+        <BaseDriverPackages>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.NFC.NXP" Name="NxpNfcClientDriver.inf" ID="NxpNfcClientDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Enchilada\Drivers\Touch" Name="SynapticsTouch.inf" ID="SynapticsTouch"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Enchilada\Platform\Drivers\Bluetooth\BTFMUART" Name="qcbtfmuart850.inf" ID="qcbtfmuart850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Enchilada\Platform\Drivers\Camera\ISP" Name="qccamisp850.inf" ID="qccamisp850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Enchilada\Platform\Drivers\Cellular\IPA" Name="qcipa850.inf" ID="qcipa850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Enchilada\Platform\Drivers\Graphics\DXKM" Name="qcdx850.inf" ID="qcdx850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Enchilada\Platform\Drivers\SOC\TrEE" Name="QcTrEE850.inf" ID="QcTrEE850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Enchilada\Platform\Drivers\Subsystems\CombinedSubsystem" Name="qcsubsys850.inf" ID="qcsubsys850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Enchilada\Platform\Drivers\WLAN\WCNSS" Name="qcwlan850.inf" ID="qcwlan850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Enchilada\Platform\Extensions\Sensors\MTP" Name="qcSensorsConfig850.inf" ID="qcSensorsConfig850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Enchilada\Platform\Extensions\Subsystems\DSPs" Name="qcsubsys_extension850.inf" ID="qcsubsys_extension850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Enchilada\Platform\Extensions\Subsystems\ModemConfig" Name="mcfg_subsys_ext850.inf" ID="mcfg_subsys_ext850"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Audio\ADCM" Name="qcadcm850.inf" ID="qcadcm850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Audio\AudMiniport" Name="qcaudminiport_Base850.inf" ID="qcaudminiport_Base850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Audio\Device" Name="qcauddev850.inf" ID="qcauddev850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Audio\ListenSoundModel" Name="QCListenSoundModel850.inf" ID="QCListenSoundModel850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Audio\Orientation" Name="AudioService850.inf" ID="AudioService850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Audio\RPC\ADSPRPC" Name="qcadsprpc850.inf" ID="qcadsprpc850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Audio\RPC\ADSPRPCD" Name="qcadsprpcd850.inf" ID="qcadsprpcd850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Audio\Slimbus" Name="qcslimbus850.inf" ID="qcslimbus850"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl850.inf" ID="qcfgbcl850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Battery\BatteryManager" Name="qcbattmngr850.inf" ID="qcbattmngr850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Battery\BatteryMiniclass" Name="qcbattminiclass850.inf" ID="qcbattminiclass850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry850.inf" ID="qcbtaddvscregistry850"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Camera\AuxilarySensor" Name="qccamauxsensor850.inf" ID="qccamauxsensor850"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Camera\AVStream\MTP" Name="qccamavs850.inf" ID="qccamavs850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Camera\Flash" Name="qccamflash850.inf" ID="qccamflash850"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Camera\FrontSensor" Name="qccamfrontsensor850.inf" ID="qccamfrontsensor850"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Camera\JPEGEncoder" Name="qccamjpege850.inf" ID="qccamjpege850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Camera\MIPICSI" Name="qccammipicsi850.inf" ID="qccammipicsi850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Camera\Platform" Name="qccamplatform850.inf" ID="qccamplatform850"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Camera\RearSensor" Name="qccamrearsensor850.inf" ID="qccamrearsensor850"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\DataBus" Name="qcdatabus850.inf" ID="qcdatabus850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\DiagBridge" Name="QCDiagBridge850.inf" ID="QCDiagBridge850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\DiagCSI" Name="qcdiagcsi850.inf" ID="qcdiagcsi850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\DiagRouter" Name="qcdiagrouter850.inf" ID="qcdiagrouter850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\DPL" Name="qcdplbridge850.inf" ID="qcdplbridge850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\GSI" Name="qcgsi850.inf" ID="qcgsi850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\IPCRouter" Name="qcipcrouter850.inf" ID="qcipcrouter850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\LinkLocal" Name="qclinklocal.wp850.inf" ID="qclinklocal.wp850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\LteCoexistanceManager" Name="QcLteCoexMgr850.inf" ID="QcLteCoexMgr850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\MBB_QBI" Name="qcmbb850.inf" ID="qcmbb850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\MBB" Name="qcmbb.wp850.inf" ID="qcmbb.wp850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\ModemBridge" Name="qcmbrg850.inf" ID="qcmbrg850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\RemoteAT\Desktop" Name="qcremoteat.wd850.inf" ID="qcremoteat.wd850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\RemoteFS\ReadOnlyFS1FS2" Name="qcremotefs850.inf" ID="qcremotefs850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\RevRmnet" Name="qcrevrmnet850.inf" ID="qcrevrmnet850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Cellular\RmNetBridge" Name="qcrmnetbridge850.inf" ID="qcrmnetbridge850"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\FMRadio" Name="qcfmtransport850.inf" ID="qcfmtransport850"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\GPS" Name="qcgnss850.inf" ID="qcgnss850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Graphics\QDCM" Name="qdcmlib850.inf" ID="qdcmlib850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\HALs\Timer" Name="HalExtQCTimer850.inf" ID="HalExtQCTimer850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\HALs\WatchDog" Name="HalExtQCWdogTimer850.inf" ID="HalExtQCWdogTimer850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SAR" Name="qSarMgr850.inf" ID="qSarMgr850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SecurityProcessor" Name="qcsp850.inf" ID="qcsp850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Sensors\SSC" Name="qcSensors850.inf" ID="qcSensors850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Shutdown" Name="qcshutdownsvc850.inf" ID="qcshutdownsvc850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\ACPI" Name="qcabd850.inf" ID="qcabd850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\Buses\GLINK" Name="qcglink850.inf" ID="qcglink850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\Buses\GPI" Name="qcgpi850.inf" ID="qcgpi850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\Diagnostic\QWPP" Name="qwpp850.inf" ID="qwpp850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\GPIO" Name="qcgpio850.inf" ID="qcgpio850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\HexagonLoader" Name="qcpil850.inf" ID="qcpil850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\I2C" Name="qci2c850.inf" ID="qci2c850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\IOMMU" Name="qciommu850.inf" ID="qciommu850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\LED" Name="qchwnled850.inf" ID="qchwnled850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\PMIC\Apps" Name="qcpmicapps850.inf" ID="qcpmicapps850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\PMIC\Core" Name="qcpmic850.inf" ID="qcpmic850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\PMIC\ExternalIC" Name="qcpmicEIC850.inf" ID="qcpmicEIC850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\PMIC\GPIO" Name="qcpmicgpio850.inf" ID="qcpmicgpio850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\PMIC\ThirdParty" Name="qcpmic3p850.inf" ID="qcpmic3p850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\PMIC\TypeCController" Name="qcpmictcc850.inf" ID="qcpmictcc850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\PowerManagement" Name="qcpep.wp850.inf" ID="qcpep.wp850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\ResetPower\CrashDumpInjector" Name="qccdi850.inf" ID="qccdi850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\ResetPower\ResetProtectionEnabler" Name="qcrpen850.inf" ID="qcrpen850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\RNG" Name="qcRng850.inf" ID="qcRng850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\System\BusAccessModule" Name="qckmbam850.inf" ID="qckmbam850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\System\CacheController" Name="qcsyscache850.inf" ID="qcsyscache850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\System\SCM" Name="qcscm850.inf" ID="qcscm850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\SMMU" Name="qcsmmu850.inf" ID="qcsmmu850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\SPI" Name="qcspi850.inf" ID="qcspi850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\SPMI" Name="qcspmi850.inf" ID="qcspmi850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\Transports" Name="QcTftpKmdf850.inf" ID="QcTftpKmdf850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\UART" Name="qcuart850.inf" ID="qcuart850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\SOC\VoltageCurrentMonitoring" Name="qcadc850.inf" ID="qcadc850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\Subsystems\ProtectionDomainServiceRegistry" Name="qcpdsr850.inf" ID="qcpdsr850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\USB\TypeCPortManager" Name="qcusbc850.inf" ID="qcusbc850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\USB\UCSI" Name="qcusbcucsi850.inf" ID="qcusbcucsi850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\USB\USBAudio" Name="QcUSBAudio850.inf" ID="QcUSBAudio850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\USBFn\Interfaces" Name="ufnserialcomposite.inf" ID="ufnserialcomposite"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\USBFn\SuperSpeedController" Name="qcusbfn850.inf" ID="qcusbfn850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\USBFn\SuperSpeedFilter" Name="QcUsbFnSsFilter850.inf" ID="QcUsbFnSsFilter850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\USBHost" Name="QcXhciFilter850.inf" ID="QcXhciFilter850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Drivers\VibrationMotor" Name="qchwnhaptics850.inf" ID="qchwnhaptics850"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\Audio\ACDB\CLS" Name="qcacsp_cls850.inf" ID="qcacsp_cls850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\Audio\ACDB\MTP" Name="qcacsp_mtp850.inf" ID="qcacsp_mtp850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\Audio\AudMiniport\CLS" Name="qcaudminiportCLS_Extension850.inf" ID="qcaudminiportCLS_Extension850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\Audio\AudMiniport\MTP" Name="qcaudminiportMTP_Extension850.inf" ID="qcaudminiportMTP_Extension850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\Audio\Device" Name="qcauddev_ext850.inf" ID="qcauddev_ext850"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\Bluetooth" Name="qcbtfmuart_ext850.inf" ID="qcbtfmuart_ext850"/>
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\Camera\AuxilarySensor" Name="qccamauxsensor_extension850.inf" ID="qccamauxsensor_extension850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\Camera\FrontSensor" Name="qccamfrontsensor_extension850.inf" ID="qccamfrontsensor_extension850"/> -->
+            <!-- <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\Camera\RearSensor" Name="qccamrearsensor_extension850.inf" ID="qccamrearsensor_extension850"/> -->
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\Cellular\EMBComponentExtension" Name="qcwmrilextension850.inf" ID="qcwmrilextension850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\Cellular\RILComponentExtension" Name="qcWMRil_mbb_ext850.inf" ID="qcWMRil_mbb_ext850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\FMRadio" Name="qcfmtransportextension850.inf" ID="qcfmtransportextension850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\HexagonLoader" Name="qcpilEXT850.inf" ID="qcpilEXT850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\PMIC\Apps" Name="qcpmicappsext850.inf" ID="qcpmicappsext850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\PowerManagement" Name="qcpepextension850.inf" ID="qcpepextension850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\SAR" Name="qsarconfig850.inf" ID="qsarconfig850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Extensions\WLAN" Name="qcwlan_extdrv850.inf" ID="qcwlan_extdrv850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Libraries\Cellular\RadioInterfaceLayer" Name="qcWMRil850.inf" ID="qcWMRil850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Libraries\Cellular\VideoOverLTESink" Name="qcimssink_mbb_ext850.inf" ID="qcimssink_mbb_ext850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Libraries\Cellular\VideoOverLTESource" Name="qcimssrc_mbb_ext850.inf" ID="qcimssrc_mbb_ext850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Libraries\FMRadio" Name="qcfmminiport.inf" ID="qcfmminiport"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Libraries\QMI" Name="qccium850.inf" ID="qccium850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Libraries\QMI" Name="qcsium850.inf" ID="qcsium850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\ProvisioningPkgs" Name="qcppmsettings850.inf" ID="qcppmsettings850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Services\Cellular\IMSData" Name="QcIMSDataDaemon_mbb_ext850.inf" ID="QcIMSDataDaemon_mbb_ext850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Services\Cellular\IMSQMI" Name="QcIMSQMIDaemon_mbb_ext850.inf" ID="QcIMSQMIDaemon_mbb_ext850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Services\GPS" Name="qcgnsssvc850.inf" ID="qcgnsssvc850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Services\RCS" Name="QcRCSPresSvc_mbb_ext850.inf" ID="QcRCSPresSvc_mbb_ext850"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC845\Settings\USBFn\Interfaces" Name="qcusbfndefaults850.inf" ID="qcusbfndefaults850"/>
+        </BaseDriverPackages>
+    </Drivers>
+</FeatureManifest>
