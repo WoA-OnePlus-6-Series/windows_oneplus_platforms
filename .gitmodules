@@ -13,3 +13,6 @@
 [submodule "components/QC845"]
 	path = components/QC845
 	url = https://github.com/WOA-Project/windows_silicon_qcom_napali
+[submodule "components/Devices/Enchilada"]
+	path = components/Devices/Enchilada
+	url = https://github.com/WoA-OnePlus-6-Series/windows_oem_oneplus_enchilada
